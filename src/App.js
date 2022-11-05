@@ -102,7 +102,7 @@ function App() {
         <Card  className='movie' key={movie.name}>
       <Card.Img
         variant="top"
-        src={movie.imgUrl}
+        src={movie.img.src}
         alt="image"
       />
       <Card.Body>
